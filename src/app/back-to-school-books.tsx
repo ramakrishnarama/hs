@@ -40,15 +40,17 @@ export function TopBookCategories() {
 
       <div className="container mx-auto relative z-10">
         <div className="mb-20 grid place-items-center text-center">
+          {/* ✅ Use `as="h2"` instead of variant */}
           <Typography
-            variant="h2"
+            as="h2"
             className="my-3 text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-700"
           >
             Trusted Cleaning Solutions
           </Typography>
 
+          {/* ✅ Use `as="p"` instead of variant */}
           <Typography
-            variant="lead"
+            as="p"
             className="!text-gray-600 lg:w-8/12 text-base sm:text-lg mt-4"
           >
             From dishwashing to laundry care and personal hygiene, our products are
@@ -74,13 +76,13 @@ export function TopBookCategories() {
             >
               <CardBody className="text-center flex flex-col items-center">
                 <Icon className="h-10 w-10 text-green-600 mb-4" />
-                <Typography
-                  variant="h5"
-                  className="mb-2 font-bold text-gray-800"
-                >
+                {/* ✅ Use `as="h5"` instead of variant */}
+                <Typography as="h5" className="mb-2 font-bold text-gray-800">
                   {title}
                 </Typography>
-                <Typography className="text-gray-600 text-sm">{desc}</Typography>
+                <Typography as="p" className="text-gray-600 text-sm">
+                  {desc}
+                </Typography>
               </CardBody>
             </Card>
           ))}
