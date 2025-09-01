@@ -14,7 +14,7 @@ function Hero() {
     <header className="mt-4 sm:mt-8 bg-gradient-to-r from-yellow-100 via-white to-green-100 px-3 sm:px-6">
       <div className="container mx-auto grid h-full min-h-[70vh] w-full grid-cols-1 lg:grid-cols-10 place-items-center gap-y-8">
         
-        {/* Left Section - 70% */}
+        {/* Left Section */}
         <div className="order-2 lg:order-1 lg:col-span-7 text-center lg:text-left flex flex-col items-center lg:items-start px-2 sm:px-4">
           <Typography
             variant="h1"
@@ -46,7 +46,7 @@ function Hero() {
           </Button>
         </div>
 
-        {/* Right Section - 30% */}
+        {/* Right Section - Product Slider */}
         <motion.div
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
@@ -58,46 +58,58 @@ function Hero() {
             autoplay={{ delay: 4500, disableOnInteraction: false }}
             pagination={{ clickable: true }}
             loop={true}
-            className="w-[70%] sm:w-[60%] md:w-[70%] lg:w-[90%]"
+            className="w-[80%] sm:w-[70%] md:w-[80%] lg:w-[90%]"
           >
+            {/* Slide 1 */}
             <SwiperSlide className="flex justify-center">
-              <Image
-                width={380}
-                height={380}
-                src="/image/product/progrillgreen-removebg-preview (1).png"
-                className="rounded-xl w-full h-[500px] object-contain shadow-lg bg-white p-4"
-                alt="Handwash Gel"
-              />
+              <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-md">
+                <Image
+                  width={380}
+                  height={380}
+                  src="/image/product/progrillgreen-removebg-preview (1).png"
+                  className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
+                  alt="Handwash Gel"
+                />
+              </div>
             </SwiperSlide>
 
+            {/* Slide 2 */}
             <SwiperSlide className="flex justify-center">
-              <Image
-                width={380}
-                height={380}
-                src="/image/product/Untitled design.png"
-                className="rounded-xl w-full h-[500px] object-contain shadow-lg bg-white p-4"
-                alt="Dishwash Gel"
-              />
+              <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-md">
+                <Image
+                  width={380}
+                  height={380}
+                  src="/image/product/Untitled design.png"
+                  className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
+                  alt="Dishwash Gel"
+                />
+              </div>
             </SwiperSlide>
 
+            {/* Slide 3 */}
             <SwiperSlide className="flex justify-center">
-              <Image
-                width={380}
-                height={380}
-                src="/image/product/WhatsApp_Image_2025-08-18_at_12.55.03-removebg-preview (1).png"
-                className="rounded-xl w-full h-[500px] object-contain shadow-lg bg-white p-4"
-                alt="Haasbharg Product 1"
-              />
+              <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-md">
+                <Image
+                  width={380}
+                  height={380}
+                  src="/image/product/WhatsApp_Image_2025-08-18_at_12.55.03-removebg-preview (1).png"
+                  className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
+                  alt="Haasbharg Product 1"
+                />
+              </div>
             </SwiperSlide>
 
+            {/* Slide 4 */}
             <SwiperSlide className="flex justify-center">
-              <Image
-                width={380}
-                height={380}
-                src="/image/product/WhatsApp_Image_2025-08-18_at_12.55.03-removebg-preview (1).png"
-                className="rounded-xl w-full h-[500px] object-contain shadow-lg bg-white p-4"
-                alt="Haasbharg Product 2"
-              />
+              <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-md">
+                <Image
+                  width={380}
+                  height={380}
+                  src="/image/product/WhatsApp_Image_2025-08-18_at_12.55.03-removebg-preview (1).png"
+                  className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
+                  alt="Haasbharg Product 2"
+                />
+              </div>
             </SwiperSlide>
           </Swiper>
         </motion.div>
