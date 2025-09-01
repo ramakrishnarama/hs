@@ -93,7 +93,7 @@ export function Navbar() {
         </IconButton>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu */} 
       {/* <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-yellow-300 bg-gradient-to-r from-yellow-300 to-green-300 px-2 pt-4 rounded-b-xl">
           <ul className="flex flex-col gap-4">
