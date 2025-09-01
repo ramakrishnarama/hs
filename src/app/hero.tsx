@@ -100,7 +100,7 @@ function Hero() {
             </SwiperSlide>
 
             {/* Slide 4 */}
-            <SwiperSlide className="flex justify-center">
+            {/* <SwiperSlide className="flex justify-center">
               <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-md">
                 <Image
                   width={380}
@@ -110,7 +110,7 @@ function Hero() {
                   alt="Haasbharg Product 2"
                 />
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </motion.div>
       </div>
