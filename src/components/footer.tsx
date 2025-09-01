@@ -27,7 +27,11 @@ export function Footer() {
               HaasBharg
             </Typography>
 
-            <Typography className="mb-2 text-sm text-gray-600">
+            <Typography              
+              as="a"
+              href="/"
+              variant="h4" 
+              className="mb-2 text-sm text-gray-600">
               Have questions or need support?  
               Reach out to us anytime via email:
             </Typography>
