@@ -55,7 +55,7 @@ function Hero() {
         >
           <Swiper
             modules={[Autoplay, Pagination]}
-            autoplay={{ delay: 4500, disableOnInteraction: false }}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
             pagination={{ clickable: true }}
             loop={true}
             className="w-[80%] sm:w-[70%] md:w-[80%] lg:w-[90%]"
@@ -66,7 +66,7 @@ function Hero() {
                 <Image
                   width={380}
                   height={380}
-                  src="/image/product/progrillgreen-removebg-preview (1).png"
+                  src="/image/product/progrillg.png"
                   className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
                   alt="Handwash Gel"
                 />
@@ -79,7 +79,7 @@ function Hero() {
                 <Image
                   width={380}
                   height={380}
-                  src="/image/product/Untitled design.png"
+                  src="/image/product/progrillYellow.png"
                   className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
                   alt="Dishwash Gel"
                 />
@@ -92,7 +92,7 @@ function Hero() {
                 <Image
                   width={380}
                   height={380}
-                  src="/image/product/WhatsApp_Image_2025-08-18_at_12.55.03-removebg-preview (1).png"
+                  src="/image/product/handwash.png"
                   className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
                   alt="Haasbharg Product 1"
                 />
@@ -100,17 +100,17 @@ function Hero() {
             </SwiperSlide>
 
             {/* Slide 4 */}
-            {/* <SwiperSlide className="flex justify-center">
+            <SwiperSlide className="flex justify-center">
               <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-md">
                 <Image
                   width={380}
                   height={380}
-                  src="/image/product/WhatsApp_Image_2025-08-18_at_12.55.03-removebg-preview (1).png"
+                  src="/image/product/turbexl.png"
                   className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
                   alt="Haasbharg Product 2"
                 />
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
           </Swiper>
         </motion.div>
       </div>
