@@ -79,7 +79,7 @@ function Hero() {
                 <Image
                   width={380}
                   height={380}
-                  src="/image/product/progrillYellow.png"
+                  src="/image/product/progrillY.png"
                   className="rounded-xl w-full aspect-[3/4] object-contain shadow-lg bg-white p-4"
                   alt="Dishwash Gel"
                 />
