@@ -52,7 +52,7 @@ import {
           <Typography className="mb-4 font-normal !text-gray-500">
             {desc}
           </Typography>
-          <div className="flex gap-2">
+          {/* <div className="flex gap-2">
             <Typography
               variant="h5"
               color="blue-gray"
@@ -63,7 +63,7 @@ import {
             <Typography variant="h5" color="red">
               {offPrice}
             </Typography>
-          </div>
+          </div> */}
         </CardBody>
       </Card>
     );
